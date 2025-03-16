@@ -21,7 +21,7 @@ Here's a brief overview of the data structure:
 
 You can use this data for analysis, visualization, or to keep track of the league's progress. The scraping script is designed to run periodically to keep the data updated.
 
-### Requirements
+ ### Requirements
 
 Make sure you have the following installed:
 
@@ -31,6 +31,9 @@ Make sure you have the following installed:
   - **BeautifulSoup4**: For parsing HTML and XML documents.
   - **lxml**: For fast parsing of XML and HTML.
   - **Workbook**: For handling spreadsheet operations.
+### Clustering
+The scatter plot illustrates the clustering of match scores based on home and away team results. Each point represents a match, with the x-axis depicting the home team score and the y-axis the away team score. Different colors indicate various clusters formed by the K-means algorithm, while the red "X" markers denote the centroids of these clusters. The distribution of points shows distinct groupings of scores, highlighting patterns in match outcomes. The centroids provide a visual reference for the average score in each cluster, facilitating insights into score relationships.<br> 
+![This is the site](clus.png)
 
 To install the required libraries, run the following commands in your terminal:
 
